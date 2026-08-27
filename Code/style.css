@@ -40,3 +40,20 @@ ul{
 .logo span{
     color: yellow;
 }
+
+.nav-links {
+    display: flex;
+    gap: 30x;
+}
+
+.nav-links a{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 4px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
